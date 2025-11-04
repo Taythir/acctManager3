@@ -18,4 +18,11 @@ A Java 8 implementation of an account management system, designed to be compatib
 - Slicer4J (for slicing analysis)
 
 ## Building the Project
+# Compile
+mvn clean compile
 
+# Package
+mvn package
+
+# Run
+java -jar target/account-manager-1.0.0.jar
